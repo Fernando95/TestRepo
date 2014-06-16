@@ -1,0 +1,6 @@
+Categoría.. (ID, Categoría, Descripción) /
+ Producto (ID, IDCategoría, Nombre de producto, Marca, Modelo, Descripción) / 
+ProductoVenta ( ID, ID producto , CabtidadExistente, PrecioVentaUnidad, PrecioVentaMayor, Descripción) /
+ Cliente (ID, Nombre, Teléfono, Cédula, Sexo, Dirección) 
+Venta (ID, Fecha, IDCliente, TotalNeto, Descuent, IVA, SubTotal, Estado ) 
+DetalleVenta (ID, IDVenta, ID productoVenta, Cantidad, PrecioUnitario, PrecioTotal)
